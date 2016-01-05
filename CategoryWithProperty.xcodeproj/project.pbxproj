@@ -13,6 +13,7 @@
 		E59B1C5A1C3B55FD003EF3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59B1C581C3B55FD003EF3E0 /* Main.storyboard */; };
 		E59B1C5C1C3B55FD003EF3E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59B1C5B1C3B55FD003EF3E0 /* Assets.xcassets */; };
 		E59B1C5F1C3B55FD003EF3E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59B1C5D1C3B55FD003EF3E0 /* LaunchScreen.storyboard */; };
+		E59B1C681C3B5632003EF3E0 /* ViewController+StringProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E59B1C671C3B5632003EF3E0 /* ViewController+StringProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E59B1C5B1C3B55FD003EF3E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E59B1C5E1C3B55FD003EF3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E59B1C601C3B55FD003EF3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59B1C661C3B5632003EF3E0 /* ViewController+StringProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+StringProperty.h"; sourceTree = "<group>"; };
+		E59B1C671C3B5632003EF3E0 /* ViewController+StringProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+StringProperty.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E59B1C5D1C3B55FD003EF3E0 /* LaunchScreen.storyboard */,
 				E59B1C601C3B55FD003EF3E0 /* Info.plist */,
 				E59B1C4F1C3B55FD003EF3E0 /* Supporting Files */,
+				E59B1C661C3B5632003EF3E0 /* ViewController+StringProperty.h */,
+				E59B1C671C3B5632003EF3E0 /* ViewController+StringProperty.m */,
 			);
 			path = CategoryWithProperty;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59B1C681C3B5632003EF3E0 /* ViewController+StringProperty.m in Sources */,
 				E59B1C571C3B55FD003EF3E0 /* ViewController.m in Sources */,
 				E59B1C541C3B55FD003EF3E0 /* AppDelegate.m in Sources */,
 				E59B1C511C3B55FD003EF3E0 /* main.m in Sources */,
